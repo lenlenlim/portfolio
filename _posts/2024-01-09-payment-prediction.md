@@ -5,7 +5,8 @@ categories:
   - blog
 tags:
   - notebook
-excerpt: "The project involves analyzing payment data of 30,000 customers from April to September 2005. Based on data exploration and research, the project provides insights into customer payment behaviors and develops a model to predict the likelihood of customer payments in October 2005."
+classes: wide
+content: "The project involves analyzing payment data of 30,000 customers from April to September 2005. Based on data exploration and research, the project provides insights into customer payment behaviors and develops a model to predict the likelihood of customer payments in October 2005."
 ---
 
 <img src="https://cdn.dribbble.com/users/957410/screenshots/3226085/dribbble-gif.gif"/>

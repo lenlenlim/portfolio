@@ -5,7 +5,8 @@ categories:
   - blog
 tags:
   - notebook
-excerpt: "The project is undertaken based on the exploration and analysis of the dataset related to customers using Heo so service in 2021. Leveraging the insights gained from dataset exploration, the project conceptualizes the definition of Churn Customers - individuals who are likely to discontinue using the application in the future. The project then proceeds to construct a predictive model for identifying Churn Customers in the future."
+classes: wide
+content: "The project is undertaken based on the exploration and analysis of the dataset related to customers using Heo so service in 2021. Leveraging the insights gained from dataset exploration, the project conceptualizes the definition of Churn Customers - individuals who are likely to discontinue using the application in the future. The project then proceeds to construct a predictive model for identifying Churn Customers in the future."
 ---
 
 <a href="https://colab.research.google.com/github/2uanDM/FDC105_final/blob/main/FDC105_final.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
