@@ -69,7 +69,7 @@ author:
     #   icon: "fas fa-fw fa-link"
     #   url: "https://"
     - label: "CV"
-      icon: "fab fa-fw fa-file"
+      icon: "fas fa-fw fa-link"
       url: "https://drive.google.com/file/d/1Af2uTnJdqqoOFSvvDA2VFkKyw6uh36_8/view?usp=sharing"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
