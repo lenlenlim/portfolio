@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - notebook
+description: "Abcxyz"
 ---
 
 <img src="https://cdn.dribbble.com/users/957410/screenshots/3226085/dribbble-gif.gif"/>
