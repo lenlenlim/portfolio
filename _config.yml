@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Minh Thu Bui"
   avatar : "/assets/images/bio.jpg"
-  bio    : >-
+  bio    : |
     I am currently a final-year undergraduate at Foreign Trade University majoring in International Economics.
     I am looking forward to becoming a Data Analyst.
 
