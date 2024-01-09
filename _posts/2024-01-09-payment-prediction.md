@@ -5,11 +5,16 @@ categories:
   - blog
 tags:
   - notebook
+classes: wide
+excerpt: "The project involves analyzing payment data of 30,000 customers from April to September 2005. Based on data exploration and research, the project provides insights into customer payment behaviors and develops a model to predict the likelihood of customer payments in October 2005."
 ---
+
+The project involves analyzing payment data of 30,000 customers from April to September 2005. Based on data exploration and research, the project provides insights into customer payment behaviors and develops a model to predict the likelihood of customer payments in October 2005.
 
 <img src="https://cdn.dribbble.com/users/957410/screenshots/3226085/dribbble-gif.gif"/>
 
 
+[*Đường dẫn tới notebook*](https://github.com/lenlenlim/portfolio/blob/master/notebooks/payment_prediction.ipynb)
 
 ## **Mục lục**:
 1. Overview
@@ -33,7 +38,7 @@ tags:
 
 
 
-###**Đặt vấn đề**
+### **Đặt vấn đề**
 Dataset "credit_card_clients.xls" là bộ dữ liệu được nhóm tác giả lựa chọn cho dự án. Bộ dữ liệu này chứa thông tin liên quan đến thanh toán và các đặc điểm của hơn 30,000 khách hàng trong khoảng thời gian từ tháng 4 đến tháng 9 của năm 2005. Nhiệm vụ bao gồm khám phá tập dữ liệu và tạo một mô hình đơn giản để phục vụ cho mục tiêu của dự án là dự đoán khả năng thanh toán khoản vay của khách hàng trong tháng tiếp theo (tháng 10/2005). 
 
 Để thực hiện yêu cầu của đề bài, nhóm tác giả tiến hành xử lý bộ dữ liệu "credit_card_clients.xls" theo trình tự sau đây:
@@ -134,7 +139,7 @@ Có tổng cộng 25 thuộc tính:
   - 1 = có
   - 0 = không
 
-#**2. Importing and Loading Dataset**
+# **2. Importing and Loading Dataset**
 
 
 ## 2.1. Import thư viện
@@ -1029,7 +1034,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_31_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_31_0.png)
     
 
 
@@ -1092,7 +1097,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_36_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_36_0.png)
     
 
 
@@ -1523,7 +1528,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_51_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_51_0.png)
     
 
 
@@ -1541,7 +1546,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_53_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_53_0.png)
     
 
 
@@ -1579,7 +1584,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_58_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_58_0.png)
     
 
 
@@ -1597,7 +1602,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_60_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_60_0.png)
     
 
 
@@ -1630,7 +1635,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_65_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_65_0.png)
     
 
 
@@ -1649,7 +1654,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_67_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_67_0.png)
     
 
 
@@ -1672,7 +1677,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_71_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_71_0.png)
     
 
 
@@ -1757,7 +1762,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_75_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_75_0.png)
     
 
 
@@ -1817,7 +1822,7 @@ kde_plot(['BILL_AMT1','BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_80_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_80_0.png)
     
 
 
@@ -1832,7 +1837,7 @@ kde_plot(['PAY_1','PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6'], 'KDE Curves for 
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_83_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_83_0.png)
     
 
 
@@ -1853,7 +1858,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_86_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_86_0.png)
     
 
 
@@ -1887,18 +1892,6 @@ var x = new MutationObserver(function (mutations, observer) {{
             observer.disconnect();
         }}
 }});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
 
                         })                };                            </script>        </div>
 </body>
@@ -2738,7 +2731,7 @@ plt.show()
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_110_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_110_0.png)
     
 
 
@@ -2769,7 +2762,7 @@ box_plot_columns(columns_bill,data)
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_112_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_112_0.png)
     
 
 
@@ -2783,7 +2776,7 @@ box_plot_columns(columns_pay,data)
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_114_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_114_0.png)
     
 
 
@@ -2840,7 +2833,7 @@ box_plot_columns(columns_pay,data_train)
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_119_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_119_0.png)
     
 
 
@@ -2852,7 +2845,7 @@ box_plot_columns(columns_pay,data_train)
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_120_0.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_120_0.png)
     
 
 
@@ -2945,7 +2938,7 @@ for classifier in classifiers:
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_126_1.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_126_1.png)
     
 
 
@@ -2964,7 +2957,7 @@ for classifier in classifiers:
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_126_5.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_126_5.png)
     
 
 
@@ -2983,7 +2976,7 @@ for classifier in classifiers:
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_126_9.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_126_9.png)
     
 
 
@@ -3002,7 +2995,7 @@ for classifier in classifiers:
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_126_13.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_126_13.png)
     
 
 
@@ -3031,7 +3024,7 @@ for classifier in classifiers:
 
 
     
-![png](/assets/payment_prediction_files/payment_prediction_126_18.png)
+![png](/portfolio/assets/images/payment_prediction_files/payment_prediction_126_18.png)
     
 
 
@@ -3615,6 +3608,6 @@ plt.show()
 
 
     
-![png](/assets//assets/payment_prediction_files/payment_prediction_151_0.png)
+![png](/portfolio/assets/images//assets/payment_prediction_files/payment_prediction_151_0.png)
     
 
